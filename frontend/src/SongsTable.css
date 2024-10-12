@@ -1,0 +1,29 @@
+.table-container {
+    background-color: #DBD3D3; /* Light gray for the table background */
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-head {
+    background-color: #024CAA; /* Blue for the table header */
+  }
+  
+  .table-cell, .table-head-cell {
+    color: #091057; /* Dark blue for text */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-row:hover {
+    background-color: #EC8305; /* Orange for row hover effect */
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  

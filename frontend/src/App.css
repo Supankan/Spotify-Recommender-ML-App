@@ -1,0 +1,24 @@
+body {
+  background-color: #f4f0ec; /* Dark blue background */
+  color: #DBD3D3; /* Light gray text for the overall UI */
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  color: #DBD3D3; /* Light gray text */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.main-content {
+  margin-left: 320px; /* Offset the main content by the width of the sidebar plus some space */
+  padding: 20px;
+  height: 95vh;
+  overflow-y: auto; /* Allow the main content to scroll */
+}
